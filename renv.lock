@@ -203,10 +203,10 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "rstudio",
       "RemoteRepo": "learnr",
-      "RemoteRef": "master",
+      "RemoteRef": "428d9af1506447f68890724bfc619ed1f2e7cfc0",
       "RemoteSha": "428d9af1506447f68890724bfc619ed1f2e7cfc0",
       "Remotes": "rstudio/htmltools, rstudio/shinytest",
-      "Hash": "9a29ef0065f5fbb0f0bb923dfc5688d9"
+      "Hash": "dcb312c9445a8377c8f545c8cf56ce73"
     },
     "lifecycle": {
       "Package": "lifecycle",
@@ -307,15 +307,15 @@
     },
     "sortable": {
       "Package": "sortable",
-      "Version": "0.4.4",
+      "Version": "0.4.4.9000",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "rstudio",
       "RemoteRepo": "sortable",
-      "RemoteRef": "cdde09d915ee0bc73353b079c7afbed8cb70ab4a",
-      "RemoteSha": "cdde09d915ee0bc73353b079c7afbed8cb70ab4a",
-      "Hash": "2b6be13d10bfbc2811d396282211651c"
+      "RemoteRef": "master",
+      "RemoteSha": "db2c220b289890d3cd65efcf3a0ab682681e2989",
+      "Hash": "c7615bec113ce0148904988d2a9f1233"
     },
     "sourcetools": {
       "Package": "sourcetools",

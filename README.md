@@ -138,3 +138,21 @@ The following package(s) will be updated in the lockfile:
 # GitHub =============================
 - learnr   [ref: 428d9af1506447f68890724bfc619ed1f2e7cfc0 -> master]
 ```
+
+And note that calling `renv::install()` catches the learnr ref mismatch, but restores sortable again to the wrong ref.
+
+```
+> renv::install()
+Retrieving 'https://api.github.com/repos/rstudio/sortable/tarball/db2c220b289890d3cd65efcf3a0ab682681e2989' ...
+	OK [downloaded 1.6 Mb in 0.9 secs]
+Installing learnr [0.10.1.9008] ...
+	OK [linked cache]
+Installing sortable [0.4.4.9000] ...
+	OK [built from source]
+> renv::snapshot()
+The following package(s) will be updated in the lockfile:
+
+# GitHub =============================
+- learnr     [ref: master -> 428d9af1506447f68890724bfc619ed1f2e7cfc0]
+- sortable   [ver: 0.4.4 -> 0.4.4.9000; ref: cdde09d915ee0bc73353b079c7afbed8cb70ab4a -> master; sha: cdde09d9 -> db2c220b]
+```
