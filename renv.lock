@@ -307,15 +307,15 @@
     },
     "sortable": {
       "Package": "sortable",
-      "Version": "0.4.4.9000",
+      "Version": "0.4.4",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "rstudio",
       "RemoteRepo": "sortable",
-      "RemoteRef": "master",
-      "RemoteSha": "db2c220b289890d3cd65efcf3a0ab682681e2989",
-      "Hash": "c7615bec113ce0148904988d2a9f1233"
+      "RemoteRef": "cdde09d915ee0bc73353b079c7afbed8cb70ab4a",
+      "RemoteSha": "cdde09d915ee0bc73353b079c7afbed8cb70ab4a",
+      "Hash": "2b6be13d10bfbc2811d396282211651c"
     },
     "sourcetools": {
       "Package": "sourcetools",

@@ -57,3 +57,38 @@ Remotes:
     rstudio/sortable,
     rstudio/learnr
 ```
+
+## One workaround
+
+I've been trying to get around this type of problem by purging packages defined in `Remotes` and then re-installing:
+
+```r
+> renv::purge("sortable")
+The following packages will be purged from the cache:
+
+	sortable 0.4.4.9000 [Hash: c7615bec113ce0148904988d2a9f1233]
+
+Do you want to proceed? [y/N]: y
+* Removed 1 package from the cache.
+> renv::install()
+The following package(s) have broken symlinks into the cache:
+
+	sortable
+
+Consider re-installing these packages.
+
+Retrieving 'https://api.github.com/repos/rstudio/sortable/tarball/db2c220b289890d3cd65efcf3a0ab682681e2989' ...
+	OK [downloaded 1.6 Mb in 0.8 secs]
+Installing sortable [0.4.4.9000] ...
+	OK [built from source]
+> renv::install("rstudio/sortable@cdde09d915ee0bc73353b079c7afbed8cb70ab4a")
+Retrieving 'https://api.github.com/repos/rstudio/sortable/tarball/cdde09d915ee0bc73353b079c7afbed8cb70ab4a' ...
+	OK [downloaded 1.6 Mb in 0.8 secs]
+Installing sortable [0.4.4] ...
+	OK [built from source]
+> renv::snapshot()
+The following package(s) will be updated in the lockfile:
+
+# GitHub =============================
+- sortable   [ver: 0.4.4.9000 -> 0.4.4; ref: master -> cdde09d915ee0bc73353b079c7afbed8cb70ab4a; sha: db2c220b -> cdde09d9]
+```
