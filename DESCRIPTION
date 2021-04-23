@@ -1,0 +1,25 @@
+Package: renv-wrong-remote-ref
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Garrick",
+           family = "Aden-Buie",
+           role = c("aut", "cre"),
+           email = "garrick@adenbuie.com",
+           comment = c(ORCID = "0000-0002-7111-0077"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Imports:
+    htmltools,
+    learnr,
+    parsons,
+    sortable
+Remotes: 
+    rstudio/htmltools@11cfbf3b331387922c0144203cf6e947c8bdaee9,
+    rstudio/learnr@428d9af1506447f68890724bfc619ed1f2e7cfc0,
+    rstudio/parsons@42d0bfb8f23a3c8048cc4c1fbca95a0ef1e0bca3,
+    rstudio/sortable@cdde09d915ee0bc73353b079c7afbed8cb70ab4a
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.0
