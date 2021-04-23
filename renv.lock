@@ -203,10 +203,10 @@
       "RemoteHost": "api.github.com",
       "RemoteUsername": "rstudio",
       "RemoteRepo": "learnr",
-      "RemoteRef": "428d9af1506447f68890724bfc619ed1f2e7cfc0",
+      "RemoteRef": "master",
       "RemoteSha": "428d9af1506447f68890724bfc619ed1f2e7cfc0",
       "Remotes": "rstudio/htmltools, rstudio/shinytest",
-      "Hash": "dcb312c9445a8377c8f545c8cf56ce73"
+      "Hash": "9a29ef0065f5fbb0f0bb923dfc5688d9"
     },
     "lifecycle": {
       "Package": "lifecycle",
